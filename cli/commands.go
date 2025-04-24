@@ -7,6 +7,7 @@ import (
 
 var path string
 
+
 // command for create resources
 func CreateResourcesCmd() *cobra.Command {
 	cmd := &cobra.Command{
@@ -22,6 +23,7 @@ func CreateResourcesCmd() *cobra.Command {
 		},
 	}
 	return cmd
-}
+
+
 
 
