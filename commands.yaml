@@ -1,0 +1,3 @@
+commands:
+  create_deployment: "kubectl create deployment {{.Name}} --image={{.Image}}"
+  delete_pod: "kubectl delete pod {{.PodName}}"
