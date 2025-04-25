@@ -13,5 +13,5 @@ var cobrarootCmd = &cobra.Command{
 }
 
 func main(){
-
+	fmt.Println("Things are working fine....")
 }
