@@ -1,3 +1,4 @@
 commands:
+  create_namespace: "kubectl create namespace {{.Namespace}}"
   create_deployment: "kubectl create deployment {{.Name}} --image={{.Image}}"
   delete_pod: "kubectl delete pod {{.PodName}}"
